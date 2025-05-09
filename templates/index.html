@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Job Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <h1>Smart Job Recommender</h1>
+    <form id="jobForm">
+        <input type="text" id="skills" placeholder="Enter skills (comma-separated)" required>
+        <input type="text" id="location" placeholder="Enter location (optional)">
+        <button type="submit">Find Jobs</button>
+    </form>
+    <div id="results"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>
