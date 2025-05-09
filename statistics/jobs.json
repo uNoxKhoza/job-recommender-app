@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Software Developer",
+        "skills": ["python", "flask", "javascript"],
+        "location": "Cape Town"
+    },
+    {
+        "title": "Data Analyst",
+        "skills": ["excel", "sql", "python"],
+        "location": "Johannesburg"
+    },
+    {
+        "title": "Cybersecurity Analyst",
+        "skills": ["networking", "security", "linux"],
+        "location": "Durban"
+    }
+]
